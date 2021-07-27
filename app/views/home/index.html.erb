@@ -3,3 +3,13 @@
     Hey
   </span>
 </div>
+
+<div data-controller='greeting'>
+  <input data-greeting-target='name' type="text">
+
+  <button data-action='click->greeting#print'>
+    click!
+  </button>
+
+  <span data-greeting-target='output'></span>
+</div>
