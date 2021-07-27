@@ -1,4 +1,4 @@
-<div data-controller='hello'>
+<!-- <div data-controller='hello'>
   <span data-hello-target='button' data-action='click->hello#boom'>
     Hey
   </span>
@@ -12,4 +12,10 @@
   </button>
 
   <span data-greeting-target='output'></span>
+</div> -->
+
+<div data-controller='clipboard'>
+  PIN:
+  <input data-clipboard-target='source' type="text" value="1234" readonly>
+  <button data-action='click->clipboard#copy'>Copy to Clipboard</button>
 </div>
