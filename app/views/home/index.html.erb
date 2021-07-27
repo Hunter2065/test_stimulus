@@ -14,10 +14,20 @@
   <span data-greeting-target='output'></span>
 </div> -->
 
-<div data-controller='clipboard'>
+<!-- <div data-controller='clipboard'>
   PIN:
   <textarea data-clipboard-target='source'readonly>1234</textarea>
   <button data-action='click->clipboard#copy' class="clipboard-button">
     Copy to Clipboard
   </button>
+</div> -->
+
+<div data-controller='slideshow' data-slideshow-index-value='0'>
+  <button data-action='slideshow#previous'> ← </button>
+  <button data-action='slideshow#next'> → </button>
+
+  <div data-slideshow-target="slide">🐵</div>
+  <div data-slideshow-target="slide">🙈</div>
+  <div data-slideshow-target="slide">🙉</div>
+  <div data-slideshow-target="slide">🙊</div>
 </div>
